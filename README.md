@@ -1,6 +1,6 @@
 # cageur_dokter
 
-A new Flutter project.
+A new Flutter project for telemedicine, homecare, and Ambulance.
 
 ## Getting Started
 
