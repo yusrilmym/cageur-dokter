@@ -1,14 +1,14 @@
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/mt_diagnostics_book_appoinment.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_book_appoinment.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_doctor_appoinment.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Notifications/mt_notifications.dart';
-import 'package:maan_doctor_appoinment/ui/Nursing%20Care/mt_nursing_care.dart';
-import 'package:maan_doctor_appoinment/ui/Pharmacy/mt_pharmacy.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Diagnostics/mt_diagnostics_book_appoinment.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_book_appoinment.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_doctor_appoinment.dart';
+import 'package:cageur_dokter/ui/Home/Notifications/mt_notifications.dart';
+import 'package:cageur_dokter/ui/Nursing%20Care/mt_nursing_care.dart';
+import 'package:cageur_dokter/ui/Pharmacy/mt_pharmacy.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../model/mt_doctor_model.dart';

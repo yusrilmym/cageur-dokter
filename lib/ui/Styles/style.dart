@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
+import 'package:cageur_dokter/const/const.dart';
 
-TextStyle ksubTitleTextStyle=TextStyle(color: kSubTitleColor);
-TextStyle ktitleTextStyle=TextStyle(fontWeight: FontWeight.bold,color: kTitleColor);
+TextStyle ksubTitleTextStyle = TextStyle(color: kSubTitleColor);
+TextStyle ktitleTextStyle =
+    TextStyle(fontWeight: FontWeight.bold, color: kTitleColor);

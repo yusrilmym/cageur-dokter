@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/auth/mt_signin.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/auth/mt_signin.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../Doctor Screen/Doctor Auth/doc_sign_in.dart';
@@ -62,21 +62,21 @@ class ChooseARoleScreen extends StatelessWidget {
                     borderSide: BorderSide(color: kMainColor),
                     borderRadius: BorderRadius.circular(6)),
               ),
-              const SizedBox(
-                height: 12,
-              ),
-              AppButton(
-                text: "Login Disini",
-                textColor: kLikeWhiteColor,
-                enableScaleAnimation: false,
-                elevation: 0,
-                width: double.infinity,
-                color: kMainColor,
-                onTap: () => const SignInScreen().launch(context),
-                shapeBorder: OutlineInputBorder(
-                    borderSide: BorderSide.none,
-                    borderRadius: BorderRadius.circular(6)),
-              )
+              // const SizedBox(
+              //   height: 12,
+              // ),
+              // AppButton(
+              //   text: "Login Disini",
+              //   textColor: kLikeWhiteColor,
+              //   enableScaleAnimation: false,
+              //   elevation: 0,
+              //   width: double.infinity,
+              //   color: kMainColor,
+              //   onTap: () => const SignInScreen().launch(context),
+              //   shapeBorder: OutlineInputBorder(
+              //       borderSide: BorderSide.none,
+              //       borderRadius: BorderRadius.circular(6)),
+              // )
             ],
           ),
         ),

@@ -1,7 +1,7 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
+import 'package:cageur_dokter/const/const.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class AppOutlinedBorderButton extends StatelessWidget {
@@ -18,11 +18,10 @@ class AppOutlinedBorderButton extends StatelessWidget {
       width: context.width(),
       onTap: function,
       elevation: 0,
-      textStyle: TextStyle(
-          color: kMainColor, fontWeight: FontWeight.bold),
+      textStyle: TextStyle(color: kMainColor, fontWeight: FontWeight.bold),
       shapeBorder: OutlineInputBorder(
           borderRadius: const BorderRadius.all(Radius.circular(6)),
-          borderSide: BorderSide(color: kMainColor,width: 1)),
+          borderSide: BorderSide(color: kMainColor, width: 1)),
     );
   }
 }

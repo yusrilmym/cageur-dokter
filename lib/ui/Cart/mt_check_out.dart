@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/Cart/mt_confirm_order.dart';
-import 'package:maan_doctor_appoinment/ui/Cart/mt_shipping_address.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/ui/Cart/mt_confirm_order.dart';
+import 'package:cageur_dokter/ui/Cart/mt_shipping_address.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';

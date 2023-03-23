@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/mt_diagnostics_details.dart';
+import 'package:cageur_dokter/ui/Diagnostics/mt_diagnostics_details.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';

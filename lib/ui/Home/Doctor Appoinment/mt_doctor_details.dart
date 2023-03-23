@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../model/mt_doctor_model.dart';

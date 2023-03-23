@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Ambulance/mt_confirm_book.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Ambulance/mt_confirm_book.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class BookAmbulanceScreen extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/widgets/elevated_button.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/widgets/elevated_button.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../Home/mt_home_bottom_nav.dart';

@@ -3,7 +3,7 @@ import 'package:country_pickers/country_picker_dropdown.dart';
 import 'package:country_pickers/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Profile/mt_edit_profile.dart';
+import 'package:cageur_dokter/ui/Profile/mt_edit_profile.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';

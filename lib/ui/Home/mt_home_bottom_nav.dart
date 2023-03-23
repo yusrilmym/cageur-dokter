@@ -1,10 +1,10 @@
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Home/mt_home.dart';
-import 'package:maan_doctor_appoinment/ui/Pharmacy/mt_pharmacy.dart';
-import 'package:maan_doctor_appoinment/ui/Profile/mt_profile.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Home/mt_home.dart';
+import 'package:cageur_dokter/ui/Pharmacy/mt_pharmacy.dart';
+import 'package:cageur_dokter/ui/Profile/mt_profile.dart';
 
 import '../Cart/mt_cart.dart';
 import '../History/mt_history.dart';

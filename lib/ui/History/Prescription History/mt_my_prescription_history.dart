@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/History/Prescription%20History/mt_past_prescription_history.dart';
+import 'package:cageur_dokter/ui/History/Prescription%20History/mt_past_prescription_history.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../../const/const.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/History/Nursing%20Care%20History/mt_upcoming_nursing_care_history.dart';
-import 'package:maan_doctor_appoinment/ui/Home/mt_home_bottom_nav.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/History/Nursing%20Care%20History/mt_upcoming_nursing_care_history.dart';
+import 'package:cageur_dokter/ui/Home/mt_home_bottom_nav.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class ConfirmYourOrderScreen extends StatefulWidget {

@@ -3,8 +3,8 @@ import 'package:flutter_credit_card/credit_card_brand.dart';
 import 'package:flutter_credit_card/credit_card_form.dart';
 import 'package:flutter_credit_card/credit_card_model.dart';
 import 'package:flutter_credit_card/credit_card_widget.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/mt_diag_payment_method.dart';
-import 'package:maan_doctor_appoinment/ui/Home/mt_home_bottom_nav.dart';
+import 'package:cageur_dokter/ui/Diagnostics/mt_diag_payment_method.dart';
+import 'package:cageur_dokter/ui/Home/mt_home_bottom_nav.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../const/const.dart';

@@ -1,13 +1,13 @@
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_book_appoinment.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_heart.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_hospital_book_appoinment.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_near_by_hospital.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_popular_doctor.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_book_appoinment.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_heart.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_hospital_book_appoinment.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_near_by_hospital.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_popular_doctor.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../model/mt_doctor_model.dart';

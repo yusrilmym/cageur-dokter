@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
+import 'package:cageur_dokter/const/const.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../Styles/style.dart';

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/Onboarding/mt_onboarding.dart';
+import 'package:cageur_dokter/ui/Onboarding/mt_onboarding.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class SplashScreen extends StatefulWidget {

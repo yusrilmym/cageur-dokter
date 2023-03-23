@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/all_diagnostic.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/diagnostic_category_screen.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/mt_diagnostics_details.dart';
+import 'package:cageur_dokter/ui/Diagnostics/all_diagnostic.dart';
+import 'package:cageur_dokter/ui/Diagnostics/diagnostic_category_screen.dart';
+import 'package:cageur_dokter/ui/Diagnostics/mt_diagnostics_details.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';

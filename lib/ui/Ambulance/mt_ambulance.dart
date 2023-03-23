@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import 'mt_book_ambulance.dart';
-
 
 class AmbulanceScreen extends StatelessWidget {
   const AmbulanceScreen({Key? key}) : super(key: key);
@@ -70,11 +69,12 @@ class AmbulanceScreen extends StatelessWidget {
                       child: Icon(
                         Icons.keyboard_arrow_right,
                         color: kSubTitleColor,
-                      ).onTap(()=> const BookAmbulanceScreen().launch(context)),
+                      ).onTap(
+                          () => const BookAmbulanceScreen().launch(context)),
                     )
                   ],
                 ),
-              ).onTap(()=> const BookAmbulanceScreen().launch(context)),
+              ).onTap(() => const BookAmbulanceScreen().launch(context)),
               const SizedBox(
                 height: 16,
               ),
@@ -114,7 +114,7 @@ class AmbulanceScreen extends StatelessWidget {
                     )
                   ],
                 ),
-              ).onTap(()=> const BookAmbulanceScreen().launch(context)),
+              ).onTap(() => const BookAmbulanceScreen().launch(context)),
               const SizedBox(
                 height: 16,
               ),
@@ -154,13 +154,15 @@ class AmbulanceScreen extends StatelessWidget {
                     )
                   ],
                 ),
-              ).onTap(()=> const BookAmbulanceScreen().launch(context)),
+              ).onTap(() => const BookAmbulanceScreen().launch(context)),
               Expanded(
                 child: Image.asset(
                   "assets/images/all-ambulance.png",
                 ),
               ),
-              const SizedBox(height: 20,)
+              const SizedBox(
+                height: 20,
+              )
             ],
           ),
         ),

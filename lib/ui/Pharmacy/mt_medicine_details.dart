@@ -1,8 +1,8 @@
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
-import 'package:maan_doctor_appoinment/ui/Cart/mt_cart.dart';
-import 'package:maan_doctor_appoinment/ui/Styles/style.dart';
+import 'package:cageur_dokter/ui/Cart/mt_cart.dart';
+import 'package:cageur_dokter/ui/Styles/style.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
 

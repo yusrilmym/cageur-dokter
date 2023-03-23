@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Choose%20A%20Role/mt_choose_a_role.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Choose%20A%20Role/mt_choose_a_role.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 

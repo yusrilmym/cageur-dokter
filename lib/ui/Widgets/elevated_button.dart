@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
+import 'package:cageur_dokter/const/const.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 // ignore: must_be_immutable

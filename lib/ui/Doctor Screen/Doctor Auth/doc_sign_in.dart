@@ -2,7 +2,7 @@ import 'package:country_pickers/country.dart';
 import 'package:country_pickers/country_picker_dropdown.dart';
 import 'package:country_pickers/utils/utils.dart';
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
+import 'package:cageur_dokter/const/const.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../Styles/style.dart';
@@ -64,7 +64,8 @@ class _DoctorSignInState extends State<DoctorSignIn> {
                   labelStyle: TextStyle(color: kTitleColor),
                   floatingLabelBehavior: FloatingLabelBehavior.never,
                   hintText: "Mobile Number",
-                  border: OutlineInputBorder(borderSide: BorderSide(color: kTextFieldBorderColor)),
+                  border: OutlineInputBorder(
+                      borderSide: BorderSide(color: kTextFieldBorderColor)),
                   prefixIcon: Padding(
                     padding: const EdgeInsets.only(left: 8.0, right: 6.0),
                     child: CountryPickerDropdown(
@@ -75,7 +76,8 @@ class _DoctorSignInState extends State<DoctorSignIn> {
                         CountryPickerUtils.getCountryByIsoCode('GB'),
                         CountryPickerUtils.getCountryByIsoCode('CN'),
                       ],
-                      sortComparator: (Country a, Country b) => a.isoCode.compareTo(b.isoCode),
+                      sortComparator: (Country a, Country b) =>
+                          a.isoCode.compareTo(b.isoCode),
                       onValuePicked: (Country country) {},
                     ),
                   ),
@@ -117,16 +119,23 @@ class _DoctorSignInState extends State<DoctorSignIn> {
                 enableScaleAnimation: false,
                 elevation: 0,
                 color: kMainColor,
-                onTap: () => const DocHomeNavBar().launch(context,isNewTask: true),
-                shapeBorder: OutlineInputBorder(borderSide: BorderSide.none, borderRadius: BorderRadius.circular(6)),
+                onTap: () =>
+                    const DocHomeNavBar().launch(context, isNewTask: true),
+                shapeBorder: OutlineInputBorder(
+                    borderSide: BorderSide.none,
+                    borderRadius: BorderRadius.circular(6)),
               ),
               const SizedBox(
                 height: 20,
               ),
               RichText(
-                text: TextSpan(text: "Don't have an account? ", style: TextStyle(color: kSubTitleColor), children: [
-                  TextSpan(text: "SIGN UP", style: TextStyle(color: kMainColor)),
-                ]),
+                text: TextSpan(
+                    text: "Don't have an account? ",
+                    style: TextStyle(color: kSubTitleColor),
+                    children: [
+                      TextSpan(
+                          text: "SIGN UP", style: TextStyle(color: kMainColor)),
+                    ]),
               ).onTap(() => const DoctorSignUp().launch(context))
             ],
           ),

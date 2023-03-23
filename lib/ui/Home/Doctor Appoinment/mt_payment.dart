@@ -4,7 +4,7 @@ import 'package:flutter_credit_card/credit_card_form.dart';
 import 'package:flutter_credit_card/credit_card_model.dart';
 import 'package:flutter_credit_card/credit_card_widget.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/History/Appoinment%20History/mt_my_appoinment.dart';
+import 'package:cageur_dokter/ui/History/Appoinment%20History/mt_my_appoinment.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../const/const.dart';

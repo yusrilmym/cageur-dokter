@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/Diagnostics/all_diagnostic.dart';
+import 'package:cageur_dokter/ui/Diagnostics/all_diagnostic.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';
 import '../Styles/style.dart';
-
 
 class DiagnosticCategory extends StatefulWidget {
   const DiagnosticCategory({Key? key}) : super(key: key);

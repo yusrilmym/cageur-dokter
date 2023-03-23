@@ -1,9 +1,9 @@
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Pharmacy/mt_near_by_pharmacy.dart';
-import 'package:maan_doctor_appoinment/ui/Pharmacy/mt_pharmacy_categories.dart';
-import 'package:maan_doctor_appoinment/ui/Pharmacy/mt_pharmacy_details.dart';
+import 'package:cageur_dokter/ui/Pharmacy/mt_near_by_pharmacy.dart';
+import 'package:cageur_dokter/ui/Pharmacy/mt_pharmacy_categories.dart';
+import 'package:cageur_dokter/ui/Pharmacy/mt_pharmacy_details.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';

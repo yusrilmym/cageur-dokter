@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_video_call.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_write_review.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_video_call.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_write_review.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../const/const.dart';

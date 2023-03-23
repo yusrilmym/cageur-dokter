@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
-import 'package:maan_doctor_appoinment/ui/History/Nursing%20Care%20History/mt_past_nursing_history.dart';
+import 'package:cageur_dokter/ui/History/Nursing%20Care%20History/mt_past_nursing_history.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../../const/const.dart';

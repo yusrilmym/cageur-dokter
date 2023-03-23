@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Cart/mt_order_successful.dart';
-import 'package:maan_doctor_appoinment/ui/Cart/mt_payment_method.dart';
-import 'package:maan_doctor_appoinment/ui/Cart/mt_shipping_address.dart';
+import 'package:cageur_dokter/ui/Cart/mt_order_successful.dart';
+import 'package:cageur_dokter/ui/Cart/mt_payment_method.dart';
+import 'package:cageur_dokter/ui/Cart/mt_shipping_address.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../const/const.dart';

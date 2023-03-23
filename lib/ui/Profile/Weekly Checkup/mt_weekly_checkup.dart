@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/Profile/Weekly%20Checkup/mt_weekly_checkup_details.dart';
+import 'package:cageur_dokter/ui/Profile/Weekly%20Checkup/mt_weekly_checkup_details.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../const/const.dart';
@@ -24,7 +24,17 @@ class _WeeklyCheckupScreenState extends State<WeeklyCheckupScreen> {
     "assets/images/liver.png",
     "assets/images/asthma.png",
   ];
-  List syntomsName = ["Cough", "Pain", "Fever", "Heart", "Kidney", "Dental", "Lunges", "Liver", "Asthma"];
+  List syntomsName = [
+    "Cough",
+    "Pain",
+    "Fever",
+    "Heart",
+    "Kidney",
+    "Dental",
+    "Lunges",
+    "Liver",
+    "Asthma"
+  ];
   List colors = [
     kMainColor.withOpacity(0.12),
     kBadgeColor.withOpacity(0.12),
@@ -77,7 +87,8 @@ class _WeeklyCheckupScreenState extends State<WeeklyCheckupScreen> {
                       GridView.builder(
                           shrinkWrap: true,
                           itemCount: syntomsName.length,
-                          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                          gridDelegate:
+                              const SliverGridDelegateWithFixedCrossAxisCount(
                             mainAxisSpacing: 4,
                             crossAxisSpacing: 4,
                             crossAxisCount: 3,
@@ -86,7 +97,9 @@ class _WeeklyCheckupScreenState extends State<WeeklyCheckupScreen> {
                             return Column(
                               children: [
                                 Container(
-                                  decoration: BoxDecoration(shape: BoxShape.circle, color: colors[index]),
+                                  decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: colors[index]),
                                   child: Padding(
                                     padding: const EdgeInsets.all(10.0),
                                     child: Image.asset(
@@ -98,10 +111,12 @@ class _WeeklyCheckupScreenState extends State<WeeklyCheckupScreen> {
                                 ),
                                 Text(
                                   syntomsName[index],
-                                  style: TextStyle(fontSize: 16, color: kSubTitleColor),
+                                  style: TextStyle(
+                                      fontSize: 16, color: kSubTitleColor),
                                 )
                               ],
-                            ).onTap(() => const WeeklyCheckupDetailsScreen().launch(context));
+                            ).onTap(() => const WeeklyCheckupDetailsScreen()
+                                .launch(context));
                           })
                     ],
                   ),

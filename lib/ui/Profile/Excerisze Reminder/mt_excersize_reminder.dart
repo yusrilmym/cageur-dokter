@@ -1,6 +1,6 @@
 import 'package:date_picker_timeline/date_picker_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/Profile/Excerisze%20Reminder/mt_outdoor_running.dart';
+import 'package:cageur_dokter/ui/Profile/Excerisze%20Reminder/mt_outdoor_running.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 

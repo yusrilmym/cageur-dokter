@@ -1,7 +1,7 @@
 import 'package:date_picker_timeline/date_picker_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:maan_doctor_appoinment/ui/Home/Doctor%20Appoinment/mt_patients_details.dart';
+import 'package:cageur_dokter/ui/Home/Doctor%20Appoinment/mt_patients_details.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../const/const.dart';

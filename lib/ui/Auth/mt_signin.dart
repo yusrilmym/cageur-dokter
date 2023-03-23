@@ -2,9 +2,9 @@ import 'package:country_pickers/country.dart';
 import 'package:country_pickers/country_picker_dropdown.dart';
 import 'package:country_pickers/utils/utils.dart';
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/const/const.dart';
-import 'package:maan_doctor_appoinment/ui/Home/mt_home_bottom_nav.dart';
-import 'package:maan_doctor_appoinment/ui/auth/mt_signup.dart';
+import 'package:cageur_dokter/const/const.dart';
+import 'package:cageur_dokter/ui/Home/mt_home_bottom_nav.dart';
+import 'package:cageur_dokter/ui/auth/mt_signup.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../Styles/style.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maan_doctor_appoinment/ui/Home/mt_home.dart';
+import 'package:cageur_dokter/ui/Home/mt_home.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../../const/const.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:maan_doctor_appoinment/ui/Profile/About%20Us/mt_about_us.dart';
+import 'package:cageur_dokter/ui/Profile/About%20Us/mt_about_us.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
 
